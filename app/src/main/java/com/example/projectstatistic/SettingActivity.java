@@ -22,7 +22,7 @@ public class SettingActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_setting);
-        setTitle("Profile");
+        setTitle("Setting");
 
 
         edtuName = findViewById(R.id.idEdtuName);
@@ -62,7 +62,7 @@ public class SettingActivity extends AppCompatActivity {
 
                         break;
                     case R.id.setting:
-                   
+
                         break;
 
                     default:;
