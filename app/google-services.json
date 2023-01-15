@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "547867379599",
+    "firebase_url": "https://statisticapp-b4b89-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "statisticapp-b4b89",
+    "storage_bucket": "statisticapp-b4b89.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:547867379599:android:44c439fd5b66b3361aadfa",
+        "android_client_info": {
+          "package_name": "com.example.projectstatistic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "547867379599-uhj4otn1hfl7dqtcvctbd81o9t3sepgg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWzFYnzQLqOZwBgheh6-uwbsjUD06kKPA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "547867379599-uhj4otn1hfl7dqtcvctbd81o9t3sepgg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

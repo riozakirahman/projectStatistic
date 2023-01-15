@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".chooseSummaryActivity">
+
+    <ImageView
+        android:id="@+id/idIVlogo"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginBottom="16dp"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/logo"
+        />
+
+    <TextView
+        android:id="@+id/idTvYear"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Choose Year!"
+        android:textSize="25sp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="5dp"
+        android:layout_below="@id/idIVlogo"
+         />
+
+    <Spinner
+        android:id="@+id/idSpinY"
+        android:layout_width="149dp"
+        android:layout_height="35dp"
+        android:layout_below="@id/idTvYear"
+        android:layout_marginStart="15dp"
+       />
+
+    <Button
+        android:id="@+id/idBtnShow"
+        android:layout_width="149dp"
+        android:layout_height="wrap_content"
+        android:text="Show"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="30dp"
+        android:layout_below="@id/idSpinY"
+    ></Button>
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/botnav"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/shape"
+        app:itemIconTint="@drawable/iconshape"
+        app:itemTextColor="@drawable/iconshape"
+        app:menu="@menu/option_menu"/>
+
+
+</RelativeLayout>
