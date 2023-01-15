@@ -44,8 +44,8 @@ public class SettingActivity extends AppCompatActivity {
                 switch (item.getItemId()){
 
                     case R.id.home:
-//                        Intent i_home = new Intent(MainActivity.this,MainActivity.class);
-//                        startActivity(i_home);
+                        Intent i_home = new Intent(SettingActivity.this,MainActivity.class);
+                        startActivity(i_home);
 
                         break;
                     case R.id.detail:
@@ -62,8 +62,7 @@ public class SettingActivity extends AppCompatActivity {
 
                         break;
                     case R.id.setting:
-                        Intent i_stg = new Intent(SettingActivity.this,SettingActivity.class);
-                        startActivity(i_stg);
+                   
                         break;
 
                     default:;
